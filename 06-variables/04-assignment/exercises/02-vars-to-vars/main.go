@@ -36,15 +36,11 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// UNCOMMENT THE CODE BELOW:
+	func main() {
 
-	// color := "green"
+	color := "green"
+	color = "dark " + color
 
-	// ADD YOUR CODE BELOW
-
-	// ?
-
-	// UNCOMMENT THE CODE BELOW TO PRINT THE VARIABLE
-
-	// fmt.Println(color)
+	fmt.Println(color)
+}
 }
